@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #efefef;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+h1{
+    color: #6B5353;
+    font-size: 3em;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+.container{
+    margin: 5% 5%;
+    padding: 5%;
+    justify-content: center;
+    align-content: center;
+    background-color: #E6CACA;
+    border-radius: 10px 150px;
+}
+.card{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-bottom: 5%; 
+    background: #d4d4eb;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #888888;
+    padding: 10px;
+    max-width: 100%;
+}
+.subtitle{
+    color: #C3BABA;
+    font-weight: 700;
+    text-align: center;
+}
+
+button{
+    margin: 0 auto;
+    background-color: #4a148c;
+    padding: 10px;
+    width:100px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+@media screen and (min-width: 500px) {
+    .container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    .card{
+        max-width: 40%;
+        margin: 2% 2%;
+    }
+}

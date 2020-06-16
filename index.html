@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Melissa Jiménez">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;500&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/styles.css'>
+    <title>JavaScript Excercises</title>
+</head>
+<body>
+    <header class="flex">
+        <h1>Ejercicios con JavaScript</h1>
+    </header>
+    <main class="container">
+        <section class="card flex">
+            <h2 class="subtitle">Sumemos!</h2>
+            <p>Hola! Por favor ingresa 5 números para conocer su suma, si no ingresas números obtendrás un error</p>
+            <button onclick='mySum()'>Inicio</button>
+            <p id="DemoSum"></p>
+        </section>
+        <section class="card flex">
+            <h2 class="subtitle">Promedio!</h2>
+            <p>Continúa! Conoce el promedio de los números que ingresaste en el paso "Sumemos"</p>
+            <button onclick='myProm()'>Inicio</button>
+            <p id="DemoProm"></p>
+        </section>
+        <section class="card flex">
+            <h2 class="subtitle">Edades!</h2>
+            <p>Hola! Ingresa las edades que quieras para saber cuántas de ellas son mayores de edad (+18), para salir y conocer el resultado escribe "0"</p>
+            <button onclick='myEdad()'>Inicio</button>
+            <p id="DemoEdad"></p>
+        </section>
+        <section class="card flex">
+            <h2 class="subtitle">Promedio Condicional!</h2>
+            <p>Hola! Ingresa los números que desees, pero se calculará el promedio sólo de los números de 1 digito que ingreses, para salir y conocer el resultado escribe "salir" </p>
+            <button onclick='myPromCon()'>Inicio</button>
+            <p id="DemoPromCond"></p>
+        </section>
+        <section class="card flex">
+            <h2 class="subtitle">Pares e Impares!</h2>
+            <p>Hola! Ingresa los números que desees, te mostraré si ingresaste más números pares o impares, para salir y conocer el resultado escribe "0" </p>
+            <button onclick=''>Inicio</button>
+            <p id="DemoParImpar"></p>
+        </section>
+        <section class="card flex">
+            <h2 class="subtitle">De números a Letras!</h2>
+            <p>Hola! Ingresa un número del 1 al 10 y te mostraré su equivalente en la letra del Abecedario de la A a la J, para salir y conocer el resultado escribe "0" </p>
+            <button onclick=''>Inicio</button>
+            <p id="DemoParImpar"></p>
+        </section>
+    </main>
+    <footer class="footer"> Made by Melissa Jimenez</footer>
+</body>
+<script src="scripts/addup.js"></script>
+<script src="scripts/ages.js"></script>
+<script src="scripts/contional-average.js"></script>
+<script src="scripts/from-num-to-letter.js"></script>
+<script src="scripts/odd-and-even.js"></script>
+</html>
