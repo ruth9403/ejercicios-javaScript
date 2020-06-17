@@ -71,5 +71,9 @@ button:hover{
     }
 }
 .footer{
-    
+    text-align: center;
+    color: #D4C1EC;
+    font-weight: 700;
+    font-size: 2em;
+    text-shadow:  1px 1px 2px #888888;
 }
