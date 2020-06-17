@@ -4,7 +4,7 @@ function myEdad(){
     let conttotal=0;
     while (edad !== '0') {
         edad=prompt('Por favor ingresa la edad a validar, ó 0 para salir:');
-        if (edad==='0' || isNaN(edad)){
+        if (isNaN(edad)){
             alert(`Error, vuelva a ingresar`);
             continue;
         }else{
