@@ -15,11 +15,11 @@ p{
 
 .container{
     margin: 5% 5%;
-    padding: 5%;
+    padding: 15% 5%;
     justify-content: center;
     align-content: center;
     background-color: #E6CACA;
-    border-radius: 10px 150px;
+    border-radius: 10px 100px;
 }
 .card{
     display: flex;
@@ -52,15 +52,24 @@ button{
     cursor: pointer;
     border-radius: 5px;
 }
+button:hover{
+    background-color: #e1bee7;
+    color: black;
+}
 @media screen and (min-width: 500px) {
     .container{
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
         align-content: center;
+        padding: 5%;
+        border-radius: 10px 150px;
     }
     .card{
         max-width: 40%;
         margin: 2% 2%;
     }
+}
+.footer{
+    
 }
